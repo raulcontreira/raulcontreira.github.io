@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio - Raul Duarte </title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #1e1b2e;
+      color: #f0e6f6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #2a2540;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff7f50;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #dcd6f7;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff7f50;
+    }
+
+    .btn-contato {
+      padding: 10px 20px;
+      background-color: #ff7f50;
+      border: none;
+      border-radius: 20px;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      color: #f0e6f6;
+    }
+
+    .hero h1 span {
+      color: #ff7f50;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 20px auto;
+      color: #c2b8e0;
+    }
+
+    .hero .btn-contato {
+      margin-top: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 50px 0 20px;
+      font-size: 32px;
+      color: #ffb347;
+    }
+
+    .especialidades {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 0 50px 50px;
+    }
+
+    .card {
+      background-color: #2e294e;
+      border: 1px solid #ffb347;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h3 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #d1c4e9;
+      font-size: 14px;
+    }
+
+    .icon {
+      font-size: 30px;
+      color: #ff7f50;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Raul Dev</div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Linguagens</a>
+      <a href="#">Sobre</a>
+      <a href="#">Repositório</a>
+    </nav>
+    <button class="btn-contato">Contato</button>
+  </header>
+
+  <section class="hero">
+    <h1>Olá, eu sou <span>Cursando Análise e Desenvolvimento de Sistemas </span></h1>
+    <p>Sou apaixonado por tecnologia </p>
+    <button class="btn-contato">Entre em contato</button>
+  </section>
+
+  <h2 class="section-title">MINHAS LINGUAGENS</h2>
+
+  <section class="especialidades">
+    <div class="card">
+      <div class="icon">💻</div>
+      <h3>Desenvolvimento Web</h3>
+      <p>Criação de sites com HTML, CSS, JavaScript e frameworks modernos.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🌐</div>
+      <h3>Linguagens</h3>
+      <p>Conhecimento em linguagens como CSS, JavaScript e Java, com foco em Aprendizado.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🧠</div>
+      <h3>Programação</h3>
+      <p>Algoritmos, estrutura de dados, lógica de programação e resolução de problemas.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🎓</div>
+      <h3>Formação</h3>
+      <p>Cursando Análise e Desenvolvimento de Sistemas.</p>
+    </div>
+  </section>
+
+</body>
+</html>
